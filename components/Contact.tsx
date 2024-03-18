@@ -9,7 +9,7 @@ const Contact = () => {
 
             <p className="font-titleFont text-lg text-textGreen font-semibold flex 
             items-center tracking-wide">
-                04. What's Next?
+                04. What&apos;s Next?
             </p>
 
             <h2 className="font-titleFont text-5xl font-semibold">
@@ -17,7 +17,7 @@ const Contact = () => {
             </h2>
 
             <p className="max-w-[600px] text-center text-textDark">
-                Whether you have a question or just want to say hi, I'm all ears!
+                Whether you have a question or just want to say hi, I&apos;m all ears!
                 Drop me a line, shoot me an email, or send a carrier pigeon my way.
                 I will respond as soon as possible.
             </p>

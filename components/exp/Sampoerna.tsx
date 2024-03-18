@@ -41,7 +41,7 @@ const Sampoerna = () => {
                     </span>
                     {" "}
                     Achieved an 80% reduction in the average time required to upload the supply 
-                    and chain's weekly volume into the MF50 SAP production planning table, surpassing 
+                    and chain&apos;s weekly volume into the MF50 SAP production planning table, surpassing 
                     the upload time goal by 16% and decreasing the time from 2 hours to 5 minutes.
                 </li>
                 <li className="text-base flex gap-2 text-textDark">

@@ -42,7 +42,7 @@ const Glassbeam = () => {
                     {" "}
                     Built a custom Pascal-based installer, leading to a remarkable 
                     93% improvement in deployment efficiency. This transformation significantly reduced 
-                    the installation time of Glassbeam's proprietary software from 30 
+                    the installation time of Glassbeam&apos;s proprietary software from 30 
                     minutes to just under 2 minutes.
                 </li>
                 <li className="text-base flex gap-2 text-textDark">
@@ -50,7 +50,7 @@ const Glassbeam = () => {
                         <IoArrowRedoSharp />
                     </span>
                     {" "}
-                    Integrated a Real-Time Location System (RTLS) into Glassbeam's 
+                    Integrated a Real-Time Location System (RTLS) into Glassbeam&apos;s 
                     proprietary software, employing cutting-edge BLE technology to monitor the precise location and movement of healthcare devices within the building.
                 </li>
                 <li className="text-base flex gap-2 text-textDark">
