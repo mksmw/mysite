@@ -1,0 +1,158 @@
+import { profileImg } from "@/public";
+import Sectiontitle from "./Sectiontitle";
+import Image from "next/image";
+import { IoBug } from "react-icons/io5";
+
+const About = () => {
+    return (
+        <section 
+            id="about"
+            className="max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8">
+                <Sectiontitle title="About Me" titleNo="01" />
+                <div className="flex flex-col lgl:flex-row gap-16">
+                    <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
+                        
+                        <p>
+                        Hello! First of all if you are reading this I just want to thank you for checking out my site, 
+                        it really means a lot to me! My name is Mikhail Sumawan and I'm an aspiring backend developer who 
+                        specializes in building automation tools, APIs, database visualization, and network management. 
+                        I graduated in 2021 with a Bachelor's degree in Computer Science from {" "}
+                        <a href="https://www.sjsu.edu/" target="_blank">
+                            <span className="text-textGreen inline-flex relative cursor-pointer 
+                            h-7 overflow-x-hidden group">
+                                San Jose State University.
+                                <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 
+                                -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500">
+                                </span>
+                            </span>
+                        </a>
+                        </p>
+                        
+                        <p>
+                        
+                        {" "}
+
+                            As of February 2024, I'm currently working at Glassbeam, a {" "}
+                            <span className="text-textGreen">
+                                data analytics company for healhcare devices
+                            </span> {" "} 
+                            in California, US. At work, my core principle is to go above and beyond the 
+                            parameters that have been laid out, not only for my own personal achievement 
+                            and development but also to elevate the quality of work I deliver to my clients.
+                        </p>
+
+                        <p>
+                        When I'm not coding I like to spend my time exploring my local Facebook marketplace or diving into the depths of eBay, 
+                        in search of discounted computer parts. I also love tinkering with cars and computers, and I 
+                        enjoy watching this {" "}
+                        <a href="https://www.youtube.com/@M539Restorations" target="_blank">
+                                <span className="text-textGreen inline-flex relative cursor-pointer 
+                                h-7 overflow-x-hidden group">
+                                    man
+                                    <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 
+                                    -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500">
+                                    </span>
+                                </span>
+                            </a> 
+                            {" "}
+                            restore broken BMWs on YouTube.
+                        </p>
+
+                        <p>Here are some of the technologies I've been working with recently:</p>
+
+                        <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-3">
+                            <li className="flex items-center gap-2">
+                                <span className="text-textGreen">
+                                    <IoBug />
+                                </span>
+                                Java
+                            </li>
+
+                            <li className="flex items-center gap-2">
+                                <span className="text-textGreen">
+                                    <IoBug />
+                                </span>
+                                Lua
+                            </li>
+
+                            <li className="flex items-center gap-2">
+                                <span className="text-textGreen">
+                                    <IoBug />
+                                </span>
+                                MySQL
+                            </li>
+
+                            <li className="flex items-center gap-2">
+                                <span className="text-textGreen">
+                                    <IoBug />
+                                </span>
+                                Scala
+                            </li>
+
+                            <li className="flex items-center gap-2">
+                                <span className="text-textGreen">
+                                    <IoBug />
+                                </span>
+                                Javascript
+                            </li>
+
+                            <li className="flex items-center gap-2">
+                                <span className="text-textGreen">
+                                    <IoBug />
+                                </span>
+                                TypeScript
+                            </li>
+
+                            <li className="flex items-center gap-2">
+                                <span className="text-textGreen">
+                                    <IoBug />
+                                </span>
+                                Pascal
+                            </li>
+
+                            <li className="flex items-center gap-2">
+                                <span className="text-textGreen">
+                                    <IoBug />
+                                </span>
+                                Node.js
+                            </li>
+
+                            <li className="flex items-center gap-2">
+                                <span className="text-textGreen">
+                                    <IoBug />
+                                </span>
+                                Python
+                            </li>
+
+                            <li className="flex items-center gap-2">
+                                <span className="text-textGreen">
+                                    <IoBug />
+                                </span>
+                                Next.js
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className="w-full lgl:w-1/3 h-80 relative group">
+                        <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg">
+                            <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0 justify-center items-center">
+                                <Image 
+                                    className="rounded-lg h-full object-cover"
+                                    src={profileImg}
+                                    alt="profileImg"
+                                />
+                                <div className="hidden lgl:inline-block absolute w-full h-80 bg-textGreen/20 
+                                rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
+                            </div>
+                        </div>
+                        <div className="hidden lgl:inline-flex w-full h-80 border-2 border-textGreen
+                        rounded-md group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform 
+                        duration-300"></div>
+                    </div>
+                </div>
+
+            </section>
+    );
+};
+
+export default About;
