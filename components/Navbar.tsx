@@ -163,8 +163,8 @@ const Navbar = () => {
                                 onClick={() => setShowMenu(false)}
                                 className="text-3xl text-textGreen cursor-pointer
                                 hover:text-red-500 absolute top-4 right-4"/>
-                                <div className="flex flex-col py-20 text-base gap-10 items-center">
-                                    <ul className="flex flex-col py-20 text-base gap-10 items-center">
+                                <div className="flex flex-col py-10 text-base gap-6 items-center">
+                                    <ul className="flex flex-col py-20 text-base gap-6 items-center">
                                         <Link 
                                         href="#home"
                                         onClick={handleScroll}
