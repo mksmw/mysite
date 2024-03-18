@@ -253,7 +253,7 @@ const Navbar = () => {
                                             href="https://github.com/mksmw"
                                             target="_blank">
                                                 <span 
-                                                className="w-14 h-14 text-3xl bg-hoverColor rounded-full inline-flex 
+                                                className="w-12 h-12 text-2xl bg-hoverColor rounded-full inline-flex 
                                                 items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 
                                                 transition-all duration-300">
                                                     <TbBrandGithub />
@@ -267,7 +267,7 @@ const Navbar = () => {
                                             href="https://www.youtube.com/channel/UC2Ft6RrmJz08xWMvJk54aWQ"
                                             target="_blank">
                                                 <span 
-                                                className="w-14 h-14 text-3xl bg-hoverColor rounded-full inline-flex 
+                                                className="w-12 h-12 text-2xl bg-hoverColor rounded-full inline-flex 
                                                 items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 
                                                 transition-all duration-300">
                                                     <SlSocialYoutube />
@@ -281,7 +281,7 @@ const Navbar = () => {
                                             href="https://www.linkedin.com/in/mikhail-smw/"
                                             target="_blank">
                                                 <span 
-                                                className="w-14 h-14 text-3xl bg-hoverColor rounded-full inline-flex 
+                                                className="w-12 h-12 text-2xl bg-hoverColor rounded-full inline-flex 
                                                 items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 
                                                 transition-all duration-300">
                                                     <SlSocialLinkedin />
@@ -295,7 +295,7 @@ const Navbar = () => {
                                             href="https://www.instagram.com/mikkhail/"
                                             target="_blank">
                                                 <span 
-                                                className="w-14 h-14 text-3xl bg-hoverColor rounded-full inline-flex 
+                                                className="w-12 h-12 text-2xl bg-hoverColor rounded-full inline-flex 
                                                 items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 
                                                 transition-all duration-300">
                                                     <SlSocialInstagram />
