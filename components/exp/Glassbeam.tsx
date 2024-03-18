@@ -23,7 +23,7 @@ const Glassbeam = () => {
                 </span>
             </h3>
             <p className="text-sm mt-1 font-medium text-textDark">
-                February 2021 - Present
+                February 2022 - Present
             </p>
 
             <ul className="mt-6 flex flex-col gap-3">
