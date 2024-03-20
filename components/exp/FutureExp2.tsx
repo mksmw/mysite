@@ -11,24 +11,24 @@ const FutureExp2 = () => {
 
             <h3 className="flex gap-1 font-medium text-xl font-titleFont">
                 Job Title
-                <span className="text-textGreen tracking-wide">
+                <span className="text-textOrDark tracking-wide">
                     @ {" "}
-                    <a href="https://www.yourcompanysite.com" target="_blank" className="text-textGreen inline-flex relative cursor-pointer 
+                    <a href="https://www.yourcompanysite.com" target="_blank" className="text-textOrDark inline-flex relative cursor-pointer 
                             h-7 overflow-x-hidden group">
                         Company Name
-                        <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 
+                        <span className="absolute w-full h-[1px] bg-textOrDark left-0 bottom-1 
                             -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500">
                         </span>
                     </a>
                 </span>
             </h3>
-            <p className="text-sm mt-1 font-medium text-textDark">
+            <p className="text-sm mt-1 font-medium text-textLight">
                 Date in - Date out
             </p>
 
             <ul className="mt-6 flex flex-col gap-3">
-                <li className="text-base flex gap-2 text-textDark">
-                    <span className="text-textGreen mt-1">
+                <li className="text-base flex gap-2 text-textLight">
+                    <span className="text-textOrDark mt-1">
                         <IoArrowRedoSharp />
                     </span>
                     {" "}
@@ -36,8 +36,8 @@ const FutureExp2 = () => {
                     autem quidem, vero eius modi fuga qui, id minus dignissimos quisquam doloribus, 
                     fugit impedit nemo vel similique est facilis.
                 </li>
-                <li className="text-base flex gap-2 text-textDark">
-                    <span className="text-textGreen mt-1">
+                <li className="text-base flex gap-2 text-textLight">
+                    <span className="text-textOrDark mt-1">
                         <IoArrowRedoSharp />
                     </span>
                     {" "}
@@ -45,8 +45,8 @@ const FutureExp2 = () => {
                     Vero eius modi fuga qui, id minus dignissimos quisquam doloribus, 
                     fugit impedit nemo vel similique est facilis.
                 </li>
-                <li className="text-base flex gap-2 text-textDark">
-                    <span className="text-textGreen mt-1">
+                <li className="text-base flex gap-2 text-textLight">
+                    <span className="text-textOrDark mt-1">
                         <IoArrowRedoSharp />
                     </span>
                     {" "}

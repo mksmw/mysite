@@ -69,8 +69,8 @@ const Experience = () => {
                     <li 
                     onClick={handleExp1}
                     className={`${workExp1 
-                        ? "border-l-textGreen text-textGreen"
-                        : "border-l-hoverColor text-textDark"
+                        ? "border-l-textOrDark text-textOrDark"
+                        : "border-l-hoverColor text-textLight"
                      } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm
                     cursor-pointer duration-300 px-8 font-medium`}>
                         Placeholder
@@ -79,8 +79,8 @@ const Experience = () => {
                     <li 
                     onClick={handleExp2}
                     className={`${workExp2 
-                        ? "border-l-textGreen text-textGreen"
-                        : "border-l-hoverColor text-textDark"
+                        ? "border-l-textOrDark text-textOrDark"
+                        : "border-l-hoverColor text-textLight"
                      } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm
                     cursor-pointer duration-300 px-8 font-medium`}>
                         Placeholder
@@ -89,8 +89,8 @@ const Experience = () => {
                     <li 
                     onClick={handleExp3}
                     className={`${workExp3 
-                        ? "border-l-textGreen text-textGreen"
-                        : "border-l-hoverColor text-textDark"
+                        ? "border-l-textOrDark text-textOrDark"
+                        : "border-l-hoverColor text-textLight"
                      } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm
                     cursor-pointer duration-300 px-8 font-medium`}>
                         Placeholder
@@ -100,8 +100,8 @@ const Experience = () => {
                     <li 
                     onClick={handleGlassbeam}
                     className={`${workGlassbeam 
-                        ? "border-l-textGreen text-textGreen"
-                        : "border-l-hoverColor text-textDark"
+                        ? "border-l-textOrDark text-textOrDark"
+                        : "border-l-hoverColor text-textLight"
                      } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm
                     cursor-pointer duration-300 px-8 font-medium`}>
                         Glassbeam
@@ -110,8 +110,8 @@ const Experience = () => {
                     <li 
                     onClick={handleSampoerna}
                     className={`${workSampoerna 
-                        ? "border-l-textGreen text-textGreen"
-                        : "border-l-hoverColor text-textDark"
+                        ? "border-l-textOrDark text-textOrDark"
+                        : "border-l-hoverColor text-textLight"
                      } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm
                     cursor-pointer duration-300 px-8 font-medium`}>
                         Sampoerna
