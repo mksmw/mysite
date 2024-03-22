@@ -35,7 +35,7 @@ const Banner = () => {
                 I am a backend developer with 3+ years of experience in automation, API development, and 
                 network management. From design to deployment, I take pride in delivering high-quality work, 
                 approaching every project with the same level of care, passion and attention to detail. So take a 
-                look around and let&apos;s create something awesome together! &nbsp;
+                look around and let&apos;s work together! &nbsp;
                 {""}
                 <a href="https://www.linkedin.com/in/mikhail-smw/" target="_blank">
                     <span className="text-textOrDark inline-flex relative cursor-pointer
