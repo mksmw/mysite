@@ -89,7 +89,7 @@ const About = () => {
                                 <span className="text-textOrDark">
                                     <IoBug />
                                 </span>
-                                Scala
+                                Docker
                             </li>
 
                             <li className="flex items-center gap-2">
@@ -104,34 +104,6 @@ const About = () => {
                                     <IoBug />
                                 </span>
                                 PyTorch
-                            </li>
-
-                            <li className="flex items-center gap-2">
-                                <span className="text-textOrDark">
-                                    <IoBug />
-                                </span>
-                                Pascal
-                            </li>
-
-                            <li className="flex items-center gap-2">
-                                <span className="text-textOrDark">
-                                    <IoBug />
-                                </span>
-                                Docker
-                            </li>
-
-                            <li className="flex items-center gap-2">
-                                <span className="text-textOrDark">
-                                    <IoBug />
-                                </span>
-                                Python
-                            </li>
-
-                            <li className="flex items-center gap-2">
-                                <span className="text-textOrDark">
-                                    <IoBug />
-                                </span>
-                                Next.js
                             </li>
                         </ul>
                     </div>
