@@ -26,8 +26,14 @@ const About = () => {
                                 </span>
                             </span>
                         </a>
-                        As of February 2025, I&apos;m currently working at Glassbeam, a data analytics company for 
-                        healhcare devices in Silicon Valley.
+                        </p>
+
+                        <p>
+                        As of February 2025, I&apos;m currently working at Glassbeam, a {" "}
+                        <span className="text-textOrDark">
+                            data analytics company for healhcare devices
+                        </span> {" "} 
+                        in Silicon Valley.
                         </p>
                         
                         <p>
@@ -43,16 +49,16 @@ const About = () => {
                         in search of discounted computer parts. I also love tinkering with cars and computers, and I 
                         enjoy watching this {" "}
                         <a href="https://www.youtube.com/@M539Restorations" target="_blank">
-                                <span className="text-textOrDark inline-flex relative cursor-pointer 
-                                h-7 overflow-x-hidden group">
-                                    man
-                                    <span className="absolute w-full h-[1px] bg-textOrDark left-0 bottom-1 
-                                    -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500">
-                                    </span>
+                            <span className="text-textOrDark inline-flex relative cursor-pointer 
+                            h-7 overflow-x-hidden group">
+                                man
+                                <span className="absolute w-full h-[1px] bg-textOrDark left-0 bottom-1 
+                                -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500">
                                 </span>
-                            </a> 
-                            {" "}
-                            restore broken BMWs on YouTube.
+                            </span>
+                        </a> 
+                        {" "}
+                        restore broken BMWs on YouTube.
                         </p>
 
                         <p>Here are some of the technologies I&apos;ve been working with recently:</p>
