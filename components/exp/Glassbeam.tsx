@@ -23,7 +23,7 @@ const Glassbeam = () => {
                 </span>
             </h3>
             <p className="text-sm mt-1 font-medium text-textLight">
-                February 2022 - Present
+                February 2022 - February 2025
             </p>
 
             <ul className="mt-6 flex flex-col gap-3">
@@ -32,7 +32,7 @@ const Glassbeam = () => {
                         <IoArrowRedoSharp />
                     </span>
                     {" "}
-                    Designed and implemented a suite of API automation to efficiently retrieve, 
+                    Developed a suite of API automation tools to efficiently retrieve, 
                     parse, and upload data across diverse client servers.
                 </li>
                 <li className="text-base flex gap-2 text-textLight">
@@ -40,10 +40,9 @@ const Glassbeam = () => {
                         <IoArrowRedoSharp />
                     </span>
                     {" "}
-                    Built a custom Pascal-based installer, leading to a remarkable 
-                    93% improvement in deployment efficiency. This transformation significantly reduced 
-                    the installation time of Glassbeam&apos;s proprietary software from 30 
-                    minutes to just under 2 minutes.
+                    Designed and implemented a Pascal-based installer, achieving a 93% improvement 
+                    in deployment efficiency. Reduced Glassbeam&apos;s proprietary software installation 
+                    time from 30 minutes to under 2 minutes.
                 </li>
                 <li className="text-base flex gap-2 text-textLight">
                     <span className="text-textOrDark mt-1">
@@ -59,7 +58,14 @@ const Glassbeam = () => {
                     </span>
                     {" "}
                     Oversaw and maintained an array of AWS servers to ensure seamless 
-                    and uninterrupted server operations.
+                    and uninterrupted server operations. 
+                </li>
+                <li className="text-base flex gap-2 text-textLight">
+                    <span className="text-textOrDark mt-1">
+                        <IoArrowRedoSharp />
+                    </span>
+                    {" "}
+                    Conducted experiments, trained models, analyzed results, and documented findings to advise on implementation strategies and configurations.
                 </li>
             </ul>
 

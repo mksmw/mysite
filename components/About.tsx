@@ -79,7 +79,7 @@ const About = () => {
                                 <span className="text-textOrDark">
                                     <IoBug />
                                 </span>
-                                MySQL
+                                Javascript
                             </li>
 
                             <li className="flex items-center gap-2">
@@ -93,14 +93,14 @@ const About = () => {
                                 <span className="text-textOrDark">
                                     <IoBug />
                                 </span>
-                                Javascript
+                                MySQL
                             </li>
 
                             <li className="flex items-center gap-2">
                                 <span className="text-textOrDark">
                                     <IoBug />
                                 </span>
-                                TypeScript
+                                PyTorch
                             </li>
 
                             <li className="flex items-center gap-2">
@@ -114,7 +114,7 @@ const About = () => {
                                 <span className="text-textOrDark">
                                     <IoBug />
                                 </span>
-                                Node.js
+                                Docker
                             </li>
 
                             <li className="flex items-center gap-2">
