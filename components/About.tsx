@@ -37,9 +37,9 @@ const About = () => {
                                 data analytics company for healhcare devices
                             </span> {" "} 
                             in Silicon Valley. In my approach to work and life, I deeply resonate with the Japanese 
-                            concept known as "kaizen" (改善), which embodies the philosophy of continuous improvement 
+                            concept known as &ldquo;kaizen&ldquo; (改善), which embodies the philosophy of continuous improvement 
                             and mastery. I believe in the power of incremental progress and relentless dedication to 
-                            refining one's skills and craftsmanship. This principle inspires me to embrace challenges 
+                            refining one&apos;s skills and craftsmanship. This principle inspires me to embrace challenges 
                             as opportunities for growth and to pursue a path of lifelong learning and improvement in my endeavors.
                         </p>
 
