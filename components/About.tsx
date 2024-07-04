@@ -27,14 +27,6 @@ const About = () => {
                             </span>
                         </a>
                         </p>
-
-                        <p>
-                        As of February 2025, I&apos;m currently working at Glassbeam, a {" "}
-                        <span className="text-textOrDark">
-                            data analytics company for healhcare devices
-                        </span> {" "} 
-                        in Silicon Valley.
-                        </p>
                         
                         <p>
                         In my approach to work and life, I deeply resonate with the Japanese 
@@ -45,9 +37,13 @@ const About = () => {
                         </p>
 
                         <p>
-                        When I&apos;m not coding I like to spend my time exploring my local Facebook marketplace or diving into the depths of eBay, 
-                        in search of discounted computer parts. I also love tinkering with cars and computers, and I 
-                        enjoy watching this {" "}
+                        As of February 2025, I&apos;m currently working at Glassbeam, a {" "}
+                        <span className="text-textOrDark">
+                            data analytics company for healhcare devices
+                        </span> {" "} 
+                        in Silicon Valley. When I&apos;m not working I like to spend my time exploring my local Facebook 
+                        marketplace or diving into the depths of eBay, in search of discounted computer parts. I also 
+                        love tinkering with cars and computers, and I enjoy watching this {" "}
                         <a href="https://www.youtube.com/@M539Restorations" target="_blank">
                             <span className="text-textOrDark inline-flex relative cursor-pointer 
                             h-7 overflow-x-hidden group">
