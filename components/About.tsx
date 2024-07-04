@@ -32,13 +32,15 @@ const About = () => {
                         
                         {" "}
 
-                            As of February 2024, I&apos;m currently working at Glassbeam, a {" "}
+                            As of February 2025, I&apos;m currently working at Glassbeam, a {" "}
                             <span className="text-textOrDark">
                                 data analytics company for healhcare devices
                             </span> {" "} 
-                            in California, US. At work, my core principle is to go above and beyond the 
-                            parameters that have been laid out, not only for my own personal achievement 
-                            and development but also to elevate the quality of work I deliver to my clients.
+                            in Silicon Valley. In my approach to work and life, I deeply resonate with the Japanese 
+                            concept known as "kaizen" (改善), which embodies the philosophy of continuous improvement 
+                            and mastery. I believe in the power of incremental progress and relentless dedication to 
+                            refining one's skills and craftsmanship. This principle inspires me to embrace challenges 
+                            as opportunities for growth and to pursue a path of lifelong learning and improvement in my endeavors.
                         </p>
 
                         <p>
