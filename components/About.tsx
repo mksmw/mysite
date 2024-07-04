@@ -26,17 +26,17 @@ const About = () => {
                                 </span>
                             </span>
                         </a>
+                        As of February 2025, I&apos;m currently working at Glassbeam, a {" "}
+                            <span className="text-textOrDark">
+                                data analytics company for healhcare devices
+                            </span> {" "} 
+                            in Silicon Valley.
                         </p>
                         
                         <p>
                         
                         {" "}
-
-                            As of February 2025, I&apos;m currently working at Glassbeam, a {" "}
-                            <span className="text-textOrDark">
-                                data analytics company for healhcare devices
-                            </span> {" "} 
-                            in Silicon Valley. In my approach to work and life, I deeply resonate with the Japanese 
+                            In my approach to work and life, I deeply resonate with the Japanese 
                             concept known as &ldquo;kaizen&ldquo; (改善), which embodies the philosophy of continuous improvement 
                             and mastery. I believe in the power of incremental progress and relentless dedication to 
                             refining one&apos;s skills and craftsmanship. This principle inspires me to embrace challenges 
