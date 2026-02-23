@@ -32,7 +32,7 @@ const Banner = () => {
                 transition={{duration:0.5, delay:0.8}}
                 className="text-base md:max-w-[650px] text-textLight font-medium">
                 {""} 
-                I am a backend developer with 3+ years of experience in automation, API development, and 
+                I am a technical solutions engineer with 3+ years of experience in automation, API development, and 
                 network management. From design to deployment, I take pride in delivering high-quality work, 
                 approaching every project with the same level of care, passion and attention to detail. So take a 
                 look around and let&apos;s work together! &nbsp;

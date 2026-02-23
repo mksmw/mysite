@@ -10,7 +10,7 @@ const Glassbeam = () => {
             className="w=full">
 
             <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-                Backend Developer 
+                Technical Solutions Engineer 
                 <span className="text-textOrDark tracking-wide">
                     @
                     <a href="https://www.glassbeam.com/" target="_blank" className="text-textOrDark inline-flex relative cursor-pointer 
@@ -23,7 +23,7 @@ const Glassbeam = () => {
                 </span>
             </h3>
             <p className="text-sm mt-1 font-medium text-textLight">
-                February 2022 - February 2025
+                February 2022 - March 2025
             </p>
 
             <ul className="mt-6 flex flex-col gap-3">
@@ -49,8 +49,7 @@ const Glassbeam = () => {
                         <IoArrowRedoSharp />
                     </span>
                     {" "}
-                    Integrated a Real-Time Location System (RTLS) into Glassbeam&apos;s 
-                    proprietary software, employing cutting-edge BLE technology to monitor the precise location and movement of healthcare devices within the building.
+                    Collaborated with clients to identify technical challenges, analyze their requirements, and develop customized solutions to meet their specific needs.
                 </li>
                 <li className="text-base flex gap-2 text-textLight">
                     <span className="text-textOrDark mt-1">
