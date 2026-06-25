@@ -282,7 +282,7 @@ const Navbar = () => {
                                             initial={{x:20, opacity:0}}
                                             animate={{x:0, opacity:1}}
                                             transition={{duration:0.1, delay:0.7, ease: "easeIn"}}
-                                            href="https://www.linkedin.com/in/mikhail-smw/"
+                                            href="https://www.linkedin.com/in/mksmw/"
                                             target="_blank">
                                                 <span 
                                                 className="w-12 h-12 text-2xl bg-hoverColor rounded-full inline-flex 
