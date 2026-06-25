@@ -39,7 +39,7 @@ const Glassbeam = () => {
                         <IoArrowRedoSharp />
                     </span>
                     {" "}
-                    Built and integrated a secure monitoring system within Glassbeam's proprietary software, enabling remote access, monitoring, and configuration of hospital equipment.
+                    Built and integrated a secure monitoring system within Glassbeam&apos;s proprietary software, enabling remote access, monitoring, and configuration of hospital equipment.
                 </li>
                 <li className="text-base flex gap-2 text-textLight">
                     <span className="text-textOrDark mt-1">
@@ -60,7 +60,7 @@ const Glassbeam = () => {
                         <IoArrowRedoSharp />
                     </span>
                     {" "}
-                    Configured and administered a large network of gateways and monitoring sensors for hospital equipment, feeding real-time data into Glassbeam's software to flag anomalies based on historical trends.
+                    Configured and administered a large network of gateways and monitoring sensors for hospital equipment, feeding real-time data into Glassbeam&apos;s software to flag anomalies based on historical trends.
                 </li>
             </ul>
 

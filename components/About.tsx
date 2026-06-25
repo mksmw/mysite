@@ -22,7 +22,7 @@ const About = () => {
                         </p>
 
                         <p>
-                        Throughout my career, I've worked on projects ranging from healthcare monitoring platforms to modernizing business 
+                        Throughout my career, I&apos;ve worked on projects ranging from healthcare monitoring platforms to modernizing business 
                         operations using automated software and systems integration. I enjoy translating complex technical challenges 
                         into practical solutions that improve efficiency, visibility, and scalability.
                         </p>
