@@ -74,6 +74,55 @@ const Projects = () => {
 
                 {/* Project Two */}
                 <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+                    
+                    <div className="flex flex-col xl:flex-row gap-6">
+                        <a 
+                        className="w-full xl:w-1/2 h-auto relative group"
+                        href="https://drive.google.com/file/d/1NBAJTe7KnahO_5UCG7LYsctQsG9rr1u6/view?usp=sharing" 
+                        target="_blank">
+                            <div>
+                                <Image className="w-full h-full brightness-90 object-contain rounded-lg 
+                                hover:-translate-y-2 transition-transform duration-300 group"
+                                    src={projectThree}
+                                    alt="projectThree"/>
+                            </div>
+                        </a>
+                        <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between
+                        items-end text-right xl:-ml-16 z-10">
+                            <p className="font-titleFont text-textOrDark mt-10 text-sm tracking-wide">
+                                Featured Project
+                            </p>
+                            <h3 className="text-2xl font-bold">Network Management Solution</h3>
+                            <p className="bg-[#3F608A] text-sm md:text-base p-2 md:p-6 rounded-md">
+                            Designed and developed a comprehensive network solution for a midsize 
+                            business, utilizing {" "} 
+                            <span className="text-textOrDark">VMWare Fusion, GNS3, and MG-Soft MIB Browser</span> 
+                            .{" "} Part of this project is to showcase my proficiency in Syslog, SNMP MIBwalk, 
+                            and SNMP set/get operations.
+                            </p>
+                            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2
+                            md:gap-5 justify-between text-textLight">
+                                <li>Python</li>
+                                <li>GNS3</li>
+                                <li>VMWare</li>
+                                <li>MG-Soft MIB</li>
+                                <li>PRTG</li>
+                                <li>Wireshark</li>
+                            </ul>
+                            <div className="text-2xl flex gap-4">
+                                <a 
+                                className="hover:text-textOrDark duration-300"
+                                href="https://drive.google.com/file/d/1NBAJTe7KnahO_5UCG7LYsctQsG9rr1u6/view?usp=sharing"
+                                target="_blank">
+                                    <TbExternalLink />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Project Three 
+                <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
                     <div className="flex flex-col xl:flex-row-reverse gap-6">
                         <a 
                         className="w-full xl:w-1/2 h-auto relative group"
@@ -123,55 +172,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-
-                {/* Project Three */}
-                <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
-                    
-                    <div className="flex flex-col xl:flex-row gap-6">
-                        <a 
-                        className="w-full xl:w-1/2 h-auto relative group"
-                        href="https://drive.google.com/file/d/1NBAJTe7KnahO_5UCG7LYsctQsG9rr1u6/view?usp=sharing" 
-                        target="_blank">
-                            <div>
-                                <Image className="w-full h-full brightness-90 object-contain rounded-lg 
-                                hover:-translate-y-2 transition-transform duration-300 group"
-                                    src={projectThree}
-                                    alt="projectThree"/>
-                            </div>
-                        </a>
-                        <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between
-                        items-end text-right xl:-ml-16 z-10">
-                            <p className="font-titleFont text-textOrDark mt-10 text-sm tracking-wide">
-                                Featured Project
-                            </p>
-                            <h3 className="text-2xl font-bold">Network Management Solution</h3>
-                            <p className="bg-[#3F608A] text-sm md:text-base p-2 md:p-6 rounded-md">
-                            Designed and developed a comprehensive network solution for a midsize 
-                            business, utilizing {" "} 
-                            <span className="text-textOrDark">VMWare Fusion, GNS3, and MG-Soft MIB Browser</span> 
-                            .{" "} Part of this project is to showcase my proficiency in Syslog, SNMP MIBwalk, 
-                            and SNMP set/get operations.
-                            </p>
-                            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2
-                            md:gap-5 justify-between text-textLight">
-                                <li>Python</li>
-                                <li>GNS3</li>
-                                <li>VMWare</li>
-                                <li>MG-Soft MIB</li>
-                                <li>PRTG</li>
-                                <li>Wireshark</li>
-                            </ul>
-                            <div className="text-2xl flex gap-4">
-                                <a 
-                                className="hover:text-textOrDark duration-300"
-                                href="https://drive.google.com/file/d/1NBAJTe7KnahO_5UCG7LYsctQsG9rr1u6/view?usp=sharing"
-                                target="_blank">
-                                    <TbExternalLink />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                */}
 
             </div>
         </section>

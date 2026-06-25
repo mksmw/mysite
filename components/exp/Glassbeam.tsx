@@ -32,39 +32,35 @@ const Glassbeam = () => {
                         <IoArrowRedoSharp />
                     </span>
                     {" "}
-                    Developed a suite of API automation tools to efficiently retrieve, 
-                    parse, and upload data across diverse client servers.
+                    Designed and developed a highly efficient software deployment tool using Pascal, reducing onboarding time by 93% from 30 minutes to just under 2 minutes.
                 </li>
                 <li className="text-base flex gap-2 text-textLight">
                     <span className="text-textOrDark mt-1">
                         <IoArrowRedoSharp />
                     </span>
                     {" "}
-                    Designed and implemented a Pascal-based installer, achieving a 93% improvement 
-                    in deployment efficiency. Reduced Glassbeam&apos;s proprietary software installation 
-                    time from 30 minutes to under 2 minutes.
+                    Built and integrated a secure monitoring system within Glassbeam's proprietary software, enabling remote access, monitoring, and configuration of hospital equipment.
                 </li>
                 <li className="text-base flex gap-2 text-textLight">
                     <span className="text-textOrDark mt-1">
                         <IoArrowRedoSharp />
                     </span>
                     {" "}
-                    Collaborated with clients to identify technical challenges, analyze their requirements, and develop customized solutions to meet their specific needs.
+                    Built a suite of API integrations to efficiently retrieve, parse, and upload data across diverse client servers, transforming it into structured, readable formats for downstream visualization.
                 </li>
                 <li className="text-base flex gap-2 text-textLight">
                     <span className="text-textOrDark mt-1">
                         <IoArrowRedoSharp />
                     </span>
                     {" "}
-                    Oversaw and maintained an array of AWS servers to ensure seamless 
-                    and uninterrupted server operations. 
+                    Managed and optimized multiple AWS instances, implementing monitoring strategies to maximize uptime and ensure seamless operations.
                 </li>
                 <li className="text-base flex gap-2 text-textLight">
                     <span className="text-textOrDark mt-1">
                         <IoArrowRedoSharp />
                     </span>
                     {" "}
-                    Conducted experiments, trained models, analyzed results, and documented findings to advise on implementation strategies and configurations.
+                    Configured and administered a large network of gateways and monitoring sensors for hospital equipment, feeding real-time data into Glassbeam's software to flag anomalies based on historical trends.
                 </li>
             </ul>
 

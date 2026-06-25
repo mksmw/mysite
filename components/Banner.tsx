@@ -32,12 +32,13 @@ const Banner = () => {
                 transition={{duration:0.5, delay:0.8}}
                 className="text-base md:max-w-[650px] text-textLight font-medium">
                 {""} 
-                I am a technical solutions engineer with 3+ years of experience in automation, API development, and 
-                network management. From design to deployment, I take pride in delivering high-quality work, 
-                approaching every project with the same level of care, passion and attention to detail. So take a 
-                look around and let&apos;s work together! &nbsp;
+                I have spent the last several years helping businesses solve technical challenges through 
+                software, automation, and systems integration. From developing API integrations and managing 
+                cloud infrastructure to implementing ERP systems and improving business processes, I enjoy 
+                building practical solutions that make work easier, faster, and more reliable. So feel free to look 
+                around and let&apos;s work together! &nbsp;
                 {""}
-                <a href="https://www.linkedin.com/in/mikhail-smw/" target="_blank">
+                <a href="https://www.linkedin.com/in/mksmw/" target="_blank">
                     <span className="text-textOrDark inline-flex relative cursor-pointer
                     h-7 overflow-x-hidden group">
                         Learn more

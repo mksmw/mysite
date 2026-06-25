@@ -13,48 +13,29 @@ const About = () => {
                     <div className="w-full lgl:w-2/3 text-base text-textLight font-medium flex flex-col gap-4">
                         
                         <p>
-                        Hello! First of all if you are reading this I just want to thank you for checking out my site, 
-                        it really means a lot to me! My name is Mikhail Sumawan and I&apos;m an aspiring backend developer who 
-                        specializes in building automation tools, APIs, database visualization, and network management. 
-                        I graduated in 2021 with a Bachelor&apos;s degree in Computer Science from {" "}
-                        <a href="https://www.sjsu.edu/" target="_blank">
-                            <span className="text-textOrDark inline-flex relative cursor-pointer 
-                            h-7 overflow-x-hidden group">
-                                San Jose State University.
-                                <span className="absolute w-full h-[1px] bg-textOrDark left-0 bottom-1 
-                                -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500">
-                                </span>
-                            </span>
-                        </a>
+                        Hi! First of all, thank you for taking the time to visit my site, it genuinely means a lot to me. 
+                        My name is <span className="text-textOrDark">
+                            Mikhail Sumawan
+                        </span> {" "}, and I specialize in solving operational problems through software, automation, 
+                        and systems integration. My background spans from cloud infrastructure, enterprise software, ERP implementation, 
+                        process improvement, and AI-driven automation.
+                        </p>
+
+                        <p>
+                        Throughout my career, I've worked on projects ranging from healthcare monitoring platforms to modernizing business 
+                        operations using automated software and systems integration. I enjoy translating complex technical challenges 
+                        into practical solutions that improve efficiency, visibility, and scalability.
                         </p>
                         
                         <p>
                         In my approach to work and life, I deeply resonate with the Japanese 
-                        concept known as &ldquo;kaizen&ldquo; (改善), which embodies the philosophy of continuous improvement 
+                        concept known as <span className="text-textOrDark">
+                            &ldquo;kaizen&ldquo; 
+                        </span> {" "}
+                        (改善), which embodies the philosophy of continuous improvement 
                         and mastery. I believe in the power of incremental progress and relentless dedication to 
                         refining one&apos;s skills and craftsmanship. This tenet inspires me to embrace challenges 
                         as opportunities for growth and to pursue the path of excellence in everything I do.
-                        </p>
-
-                        <p>
-                        As of February 2025, I&apos;m currently working at Glassbeam, a {" "}
-                        <span className="text-textOrDark">
-                            data analytics company for healhcare devices
-                        </span> {" "} 
-                        in Silicon Valley. When I&apos;m not working I like to spend my time exploring my local Facebook 
-                        marketplace or diving into the depths of eBay, in search of discounted computer parts. I also 
-                        love tinkering with cars and computers, and I enjoy watching this {" "}
-                        <a href="https://www.youtube.com/@M539Restorations" target="_blank">
-                            <span className="text-textOrDark inline-flex relative cursor-pointer 
-                            h-7 overflow-x-hidden group">
-                                man
-                                <span className="absolute w-full h-[1px] bg-textOrDark left-0 bottom-1 
-                                -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500">
-                                </span>
-                            </span>
-                        </a> 
-                        {" "}
-                        restore broken BMWs on YouTube.
                         </p>
 
                         <p>Here are some of the technologies I&apos;ve been working with recently:</p>
@@ -71,35 +52,35 @@ const About = () => {
                                 <span className="text-textOrDark">
                                     <IoBug />
                                 </span>
+                                SQL
+                            </li>
+
+                            <li className="flex items-center gap-2">
+                                <span className="text-textOrDark">
+                                    <IoBug />
+                                </span>
+                                JavaScript
+                            </li>
+
+                            <li className="flex items-center gap-2">
+                                <span className="text-textOrDark">
+                                    <IoBug />
+                                </span>
+                                Python
+                            </li>
+
+                            <li className="flex items-center gap-2">
+                                <span className="text-textOrDark">
+                                    <IoBug />
+                                </span>
+                                TypeScript
+                            </li>
+
+                            <li className="flex items-center gap-2">
+                                <span className="text-textOrDark">
+                                    <IoBug />
+                                </span>
                                 Lua
-                            </li>
-
-                            <li className="flex items-center gap-2">
-                                <span className="text-textOrDark">
-                                    <IoBug />
-                                </span>
-                                Javascript
-                            </li>
-
-                            <li className="flex items-center gap-2">
-                                <span className="text-textOrDark">
-                                    <IoBug />
-                                </span>
-                                Docker
-                            </li>
-
-                            <li className="flex items-center gap-2">
-                                <span className="text-textOrDark">
-                                    <IoBug />
-                                </span>
-                                MySQL
-                            </li>
-
-                            <li className="flex items-center gap-2">
-                                <span className="text-textOrDark">
-                                    <IoBug />
-                                </span>
-                                PyTorch
                             </li>
                         </ul>
                     </div>

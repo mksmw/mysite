@@ -2,17 +2,17 @@ import React, {useState} from "react";
 import Sectiontitle from "./Sectiontitle";
 import Glassbeam from "./exp/Glassbeam";
 import Sampoerna from "./exp/Sampoerna";
+import Chitosan from "./exp/Chitosan";
 {/*
 import FutureExp1 from "./exp/FutureExp1";
 import FutureExp2 from "./exp/FutureExp2";
-import FutureExp3 from "./exp/FutureExp3";
 */}
 
 const Experience = () => {
     const [workExp1, setWorkExp1] = useState(false);
     const [workExp2, setWorkExp2] = useState(false);
-    const [workExp3, setWorkExp3] = useState(false);
-    const [workGlassbeam, setWorkGlassbeam] = useState(true);
+    const [workChitosan, setWorkChitosan] = useState(true);
+    const [workGlassbeam, setWorkGlassbeam] = useState(false);
     const [workSampoerna, setWorkSampoerna] = useState(false);
 
     {/*
@@ -31,30 +31,30 @@ const Experience = () => {
         setWorkExp2(true);
         setWorkExp3(false);
     }
+    */}
 
-    const handleExp3 = () => {
+    const handleChitosan = () => {
         setWorkGlassbeam(false);
         setWorkSampoerna(false);
+        setWorkChitosan(true);
         setWorkExp1(false);
         setWorkExp2(false);
-        setWorkExp3(true);
     }
-    */}
 
     const handleGlassbeam = () => {
         setWorkGlassbeam(true);
         setWorkSampoerna(false);
+        setWorkChitosan(false);
         setWorkExp1(false);
         setWorkExp2(false);
-        setWorkExp3(false);
     }
 
     const handleSampoerna = () => {
         setWorkGlassbeam(false);
         setWorkSampoerna(true);
+        setWorkChitosan(false);
         setWorkExp1(false);
         setWorkExp2(false);
-        setWorkExp3(false);
     }
 
     return (
@@ -85,17 +85,17 @@ const Experience = () => {
                     cursor-pointer duration-300 px-8 font-medium`}>
                         Placeholder
                     </li>
+                    */}
 
                     <li 
-                    onClick={handleExp3}
-                    className={`${workExp3 
+                    onClick={handleChitosan}
+                    className={`${workChitosan 
                         ? "border-l-textOrDark text-textOrDark"
                         : "border-l-hoverColor text-textLight"
                      } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm
                     cursor-pointer duration-300 px-8 font-medium`}>
-                        Placeholder
+                        BCI
                     </li>
-                    */}
                     
                     <li 
                     onClick={handleGlassbeam}
@@ -121,8 +121,8 @@ const Experience = () => {
                 {/*
                 {workExp1 && <FutureExp1 />}
                 {workExp2 && <FutureExp2 />}
-                {workExp3 && <FutureExp3 />}
-                */}                
+                */}
+                {workChitosan && <Chitosan />}
                 {workGlassbeam && <Glassbeam />}
                 {workSampoerna && <Sampoerna />}
             </div>

@@ -106,20 +106,19 @@ const Archive = () => {
                                 link="https://github.com/mksmw/DaveChrome"/>
                             </motion.div>
 
-                            {/*
+                            
                             <motion.div
                             initial={{opacity:0}}
                             whileInView={{opacity:1}}
                             transition={{delay:0.4}}>
                                 <Archivecard 
-                                title="Placeholder Project"
-                                des="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                Est doloribus ducimus libero. Ipsam eveniet sed officiis 
-                                sint ut possimus soluta."
-                                listItem={["Tool1", "Tool2", "Tool3", "Tool4"]}
-                                link="https://yourproject.com"/>
+                                title="Modeling Portfolio Website"
+                                des="I helped my friend create a portfolio website to showcase her modeling work."
+                                listItem={["NextJS", "Vercel", "TypeScript", "Tailwind"]}
+                                link="https://breezysamudra.vercel.app/"/>
                             </motion.div>
                             
+                            {/*
                             <motion.div
                             initial={{opacity:0}}
                             whileInView={{opacity:1}}
